@@ -14,7 +14,8 @@ public class RegisterMore {
         driver.findElement(By.name("email")).sendKeys("jack@test.com");
         driver.findElement(By.name("password")).sendKeys("Password1");
         driver.findElement(By.cssSelector("body > main > section > div > div > form > button")).click();
-        
+		
+    
         //driver.findElement(By.cssSelector("#mainNav > ul > li:nth-child(2) > a")).click();
         //driver.findElement(By.cssSelector("driver.findElement(By.cssSelector(\"#mainNav > ul > li:nth-child(2) > a\")).click();")).click();
         //driver.findElement(By.cssSelector("body > main > section.section-pad > div > div > div.col-lg-9 > div.row.g-3 > div:nth-child(5) > div > div.body > div.product-actions > button.btn.btn-outline-success")).click();
